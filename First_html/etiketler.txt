@@ -1,0 +1,176 @@
+			**<p></p>           //parafrag yapmak için kullanýlýr.
+
+**<pre></pre>      //aralara boþluk býrakýbilmek ve istediðimiz satýrlarla yazabilmek için.
+
+**title></title> //üstteki sayfa baþlýðý.
+
+**<h1></h1>      //h1 h2 h3 diye küçülerek giden baþlýk boyutu.
+
+**<abbr title="Beþiktaþ Jimlastik Kulübü">BJK</abbr>    //bjk'in üstüne geldiðinde kýsaltmanýn uzun hali görünüyor.
+
+**x<sup>2</sup>   // x'üstüne yazabilmeye yarar.
+**h<sub>2</sub>o  // alta yazabilmek için
+
+
+**<strong>ABC</strong>   //arasýndaki kelimeyi kalýn yazdýrýr ve google'de vurgulu olur arama yaparken. <b></b> deayný iþi yapar ama sadece görüntüyü deðiþtirir.
+
+**<em>ABC</em>   //Arasýndaki yazýyý eðik yazar. <i></i> de ayný iþi yapar ama sadece görüntü deðiþir.
+
+**<q>ABC</q>    // arasýndaki yazýyý týrnak içinde yazarak alýntý olduðunu belirtir.
+
+**<blockquote>ABC</blockquote>   //arasýndaki metini biraz daha içeri kaydýrarak yazar.
+
+**<br>    //alt satýra inmek için kullanýlýr.
+
+**<cite>ABC</cite>   // bir yazýyý hafif ince eðik þekilde yazarak alýntý oldugunu belirtmek için.
+
+**<address>ABC</address>   //Adminin adres iletiþim bilgileri yazýlýrken kullandýgý yazý sitili.
+
+
+**<img src="img/doga-resmi.jpg" alt="Resim çýkmadýðýnda kullanýcýnýn göreceði yazý" 
+title="mause resmin üstüne geldiðinde çýkan yazý" width="300" height="400" border="10" align="right">   
+//src-->resmin adresi yazýlýr //border resmin etrafýna çerçeve yapar //align resmin saðýna soluna yazýlarýn gelmesi için
+
+
+**<ul>
+    <li>liste elamaný 1</li>           ///baþýnda nokta olan sýrasýz liste elamaný <ul type="square/disc/circle(square yapýnca madde iþareti kare olur disc yapýnca daire circle yapýnca içi boþ daire)">
+    <li>liste elamaný 2</li>
+    <li>liste elamaný 3</li>
+    <li>liste elamaný 4</li>
+</ul>
+---------------------------------------------------------------
+
+**<ol>   
+    <li>liste elamaný 1</li>          /// 1 2 3 diye giden sýralý liste elamaný   //<ol start=4> bunu yapýnca sýralama 4'ten baþlar.
+    <li>liste elamaný 2</li>
+    <li>liste elamaný 3</li>
+    <li>liste elamaný 4</li>
+</ol>
+---------------------------------------------------------------
+
+**<dl>
+    <dt>liste elamaný 1</dt>			//// açýklamalý liste 
+    <dd>bir üstekinin açýklamasý</dd>
+    <dt>liste elamaný 2</dt>
+    <dt>liste elamaný 3</dt>
+    <dt>liste elamaný 4</dt>
+</dl>
+----------------------------------------------------------------
+
+**<ul>
+    <li>liste elamaný 1</li>
+	<ul>
+	<li>liste elamaný 1.1</li>
+	<li>liste elamaný 1.2</li>
+	</ul>
+    <li>liste elamaný 2</li>
+    <li>liste elamaný 3</li>
+</ul>
+----------------------------------------------------------------
+
+
+
+**<a href="htttp://www.google.com.tr">burasý sayfada görülen isim</a> /// link verme etiketi <a href="htttp://www.google.com.tr" target="_blank">abcd</a> 
+//target etiketi sayesinde yeni sekmede açýlýr.
+
+
+
+**<a href="#kon1">konu 1 e git</a>     <------->      <p id="kon1">abcd</p>   ////   "konu 1'e git"e bastýðýmýzda abcd yazan yere gidecek.
+
+
+
+**kaynak dosyalarý indirmek için <a href="dosya.rar/pdf">týklayýnýz</a>   //indirme yaptýrmak için.
+
+
+**<a href="mailto:test@test.com?subject=deneme konu">Bize Mail yollamak için týklayýn</a> ///otamatik test@test.com'a mail gönderme ekranýna geçecek ve konu subject kýsmýna yazýlýr.
+
+
+**<a href="htttp://www.google.com.tr"><img src="img/doga-resmi.jpg"></a> //resime link verme ---> resme týkladýgýnda google ye gider.
+
+
+**&nbsp               ////boþluk karakteri
+
+
+** <table border="1">
+<caption>tablonun baþlýðý</caption>
+
+	<tr><th>baslýk</th><th>baslýk</th><th>baslýk</th></tr>				// <th>'ler baþlýk için kullanýlýr.
+	<tr><td>satýr1sütün1</td><td>satýr1sütün2</td><td>satýr1sütün3</td></tr>
+	<tr><td>satýr2sütün1</td><td>satýr2sütün2</td><td>satýr2sütün3</td></tr>
+	<tr><td>satýr3sütün1</td><td>satýr3sütün2</td><td>&nbsp</td></tr>
+   </table>
+----------------------------------------------------------------
+**<table border="1">
+
+
+	<tr><th>baslýk</th><th>baslýk</th><th>baslýk</th></tr>				
+	<tr><td rowspan="3">satýr1sütün1</td><td>satýr1sütün2</td><td>satýr1sütün3</td></tr>   /// satýr1sütün1 alttaki 2 satýrýda kaplamýþ olur rowspanla.
+	<tr><td>satýr2sütün2</td><td>satýr2sütün3</td></tr>
+	<tr><td>satýr3sütün2</td><td>&nbsp</td></tr>
+   </table>
+
+
+----------------------------------------------------------------
+**<table border="1">
+
+
+	<tr><th>baslýk</th><th>baslýk</th><th>baslýk</th></tr>				
+	<tr><td colspan="3">satýr1sütün1</td>   /// satýr1sütün1 alttaki 2 satýrýda kaplamýþ olur rowspanla.
+	<tr><td>satýr2sütün2</td><td>satýr2sütün3</td></tr>
+	<tr><td>satýr3sütün2</td><td>&nbsp</td></tr>
+   </table>
+
+
+
+**<embed src="flash.swf"/>     // sayfanýn içinde flash uygulamasý kullanmak için
+
+
+**<iframe  src="yeni_sayfa.html" widht="600" height="400"> </iframe>  /// sayfa içinde kutucuk halinde baþka sayfa kullanma.
+
+**<form name="üyekayýt" id="uye-kayýt-formu" method="post/get[post dersek bilgiler tarayýcýda görülür get denirse saklanýr.]" action="gonder.html[]nereye göndereceðimiz belirlenir."> //// 
+  <label for="adi"[Adiniz kismina basýldýðýnda imleç kutucuga geçmesi için]><input type="text" name="adýnýz" id="adi" value="" placeholder="adýnýzý giriniz" maxlength="5"[5den büyüksayýlarý girmez] size="25"[]25 karakterlik boþluk oluþturdu >    // value kutuda sabit yazacak sözcük  // placeholder kutudaki silik yazý
+
+  <label for="parola">parola:</label><input type="password" name="parola" id="parola" value=""/> 
+
+  </form>
+
+
+**<!-- buraya yorum gelir -->
+
+
+
+<style>
+ p {
+	background-color:red;[ARKA PLAN KIRMIZI OLUR]
+ 	color:yellow;[YAZI RENGÝ SARI OLUR]
+	font-family;YAZI TÜRÜ ÝSMÝ;
+	font-weight:bold;[YAZIYI KALINLAÞTIRIR]
+	font-style:italic[YAZIYI ÝTALÝK YAPAR]
+	text-indent:50px;[BELLÝ MÝKTARDA PARAKRAF BAÞI BOÞLUK BIRAKIR]
+	line-height:150px;[SATIR ARASI BOÞLUK MÝKTARI BELÝRLENÝR]
+	text-align:right/left/center;[YAZININ YERÝNÝ BELÝRLER]
+        background-image:url(rsm/kartal.jpg);[ARKA PLANA FOTO KOYMA]
+	background-repeat:no-repeat;[FOTOYU TEKRARLAMAZ]
+	background-position: 100px//50% [SOL TARAFLA MESAFE] 50px//35%[ÜST TARAFLA MESAFE]
+	padding-top:15px;[YAZI ÝLE ÇERÇEVESÝ ARASINDA BOÞLUK BIRAKIR// TOP>SADECE ÜSTTEN//LEFT>SADECE SOLDAN//BOTTOM>SADECE ALTTAN]
+	width:15px/50%;[YAZININ GENÝÞLÝÐÝNÝ BELÝRLER]
+	height:15px/%45[YAZININ UZUNLUÐUNU BELÝRLER]
+	border: blue dashed/solid/dotted 5px;[ÇERÇEVENÝN KENARLARINI BELÝRLER RENK/TÜR/KALINLIK]
+	yakýn<span>kampüs</span>nerede[SPANLAR ARASINDA KALAN KELÝME CSS KODU ÝLE ÖZELLEÞTÝRÝLEBÝLÝR.]
+	text-decoration:underline;[KELÝMENÝN ALTINA ÇÝZGÝ KOYMAK ÝÇÝN]
+	h1:first-letter{color:orange;}[ÝLK HARFÝ ÝÇÝN ÖZELLEÞTÝRME YAPAR]
+	
+	}
+	**a:link/lower/active{font-family:forte;}[VERÝLEN LÝNKÝN YAZISI ÝÇÝN]
+	text-decoration:underline;[KELÝMENÝN ALTINA ÇÝZGÝ KOYMAK ÝÇÝN]
+
+
+	table> li{color:red;}[SADECE  TABLONUN ÝÇÝNDEKÝ LÝ KODUNU KAPSAMASI ÝÇÝN]
+
+
+
+
+</style>
+    g""""""
+
+
